@@ -66,9 +66,9 @@ export default function RedirectionBox() {
             borderRadius: '5px',
             '& .MuiSelect-select': { padding: '4px' },
           }}>
-          <OptionItem>Per Page:10</OptionItem>
-          <OptionItem>Per Page:5</OptionItem>
-          <OptionItem>Per Page: 20</OptionItem>
+          <OptionItem value={10}>Per Page:10</OptionItem>
+          <OptionItem value={5}>Per Page:5</OptionItem>
+          <OptionItem value={20}>Per Page: 20</OptionItem>
         </Select>
       </Stack>
       <Stack
